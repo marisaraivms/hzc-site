@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HZC - Picos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <button class="header__menu" aria-label="Menu"><i></i></button>
+        <img src="assets/img/logo.svg" alt="Logo HZC" class="header__logo">
+        <p class="header__profile">Bruno Lopez</p>
+        <button class="header__notifications" aria-label="notificação"><i></i></button>
+    </header>
+
+    <nav class="lateral-menu">
+        <img src="assets/img/logo.svg" alt="Logo HZC" class="lateral-menu__logo">
+        <a href="index.html" class="lateral-menu__link lateral-menu__link--inicio lateral-menu__link--active">Início</a>
+        <a href="videos.html" class="lateral-menu__link lateral-menu__link--videos">Vídeos</a>
+        <a href="picos.html" class="lateral-menu__link lateral-menu__link--picos">Picos</a>
+        <a href="artes.html" class="lateral-menu__link lateral-menu__link--pinturas">Pinturas</a>
+    </nav>
+
+    <main class="principal principal--picos">
+        <h2 class="title-page">Picos</h2>
+        <article class="card picos-map" aria-label="Mapa picos favoritos">
+            <iframe class=" card picos-map picos-favorits"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58513.778480328474!2d-46.717634822163134!3d-23.564451006415407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1657223362673!5m2!1spt-BR!2sbr"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </article>
+
+        <article class="card card--recent picos-favorits">
+            <h3 class="card__title">Favoritos</h3>
+            <a href="#" class="card__link">Ver todos</a>
+
+            <ul class="card__list">
+                <li class="card__item">
+                    <img src="assets/img/artigo_1.png" alt="Thumbnail" class="card__item-thumbnail">
+                    <h4 class="card__item-title">Wallride da FGP.</h4>
+                    <p class="card__item-profile">Júlia Fonseca</p>
+                </li>
+
+                <li class="card__item">
+                    <img src="assets/img/artigo_2.png" alt="Thumbnail" class="card__item-thumbnail">
+                    <h4 class="card__item-title">Borda de valores.</h4>
+                    <p class="card__item-profile">Júlia Fonseca</p>
+                </li>
+
+                <li class="card__item">
+                    <img src="assets/img/artigo_3.png" alt="Thumbnail" class="card__item-thumbnail">
+                    <h4 class="card__item-title">Wallride Rebouças.</h4>
+                    <p class="card__item-profile">Júlia Fonseca</p>
+                </li>
+
+                <li class="card__item">
+                    <img src="assets/img/artigo_4.png" alt="Thumbnail" class="card__item-thumbnail">
+                    <h4 class="card__item-title">Segundo setor - Praça Mauá.</h4>
+                    <p class="card__item-profile">Júlia Fonseca</p>
+                </li>
+            </ul>
+        </article>
+
+        <section class="section section-picos-more">
+            <h3 class="title-section">Mais visitados</h3>
+            <article class="card">
+                <img src="assets/img/artigo_1.png" alt="Vídeo" class="card__img">
+                <div class="card__contents">
+                    <p class="card__profile">Júlia</p>
+                    <h3 class="card__title">Gap Itaú - Voluntários da pátria.</h3>
+                    <p class="card__info card__info--views">50 visualizações</p>
+                    <button class="card__button card__button--picos" aria-label="Visualizar no mapa"></button>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="assets/img/artigo_3.png" alt="Vídeo" class="card__img">
+                <div class="card__contents">
+                    <p class="card__profile">Luiz</p>
+                    <h3 class="card__title">Gap.</h3>
+                    <p class="card__info card__info--views">50 visualizações</p>
+                    <button class="card__button card__button--picos" aria-label="Visualizar no mapa"></button>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="assets/img/artigo_3.png" alt="Vídeo" class="card__img">
+                <div class="card__contents">
+                    <p class="card__profile">Luiz</p>
+                    <h3 class="card__title">Gap.</h3>
+                    <p class="card__info card__info--views">50 visualizações</p>
+                    <button class="card__button card__button--picos" aria-label="Visualizar no mapa"></button>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="assets/img/artigo_4.png" alt="Vídeo" class="card__img">
+                <div class="card__contents">
+                    <p class="card__profile">Bruno</p>
+                    <h3 class="card__title">Voluntários da pátria.</h3>
+                    <p class="card__info card__info--views">50 visualizações</p>
+                    <button class="card__button card__button--picos" aria-label="Visualizar no mapa"></button>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
